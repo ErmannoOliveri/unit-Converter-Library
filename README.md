@@ -1,7 +1,7 @@
 # Unit Converter
 > A simple java library for converting values between metric and imperial
 
-*Read this in other languages: [English](README.EN.md).*
+*Read this in other languages: [Italian](README.IT.md).*
 
 
 # Indice
