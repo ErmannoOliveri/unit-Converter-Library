@@ -4,7 +4,7 @@
 *Read this in other languages: [Italian](README.IT.md).*
 
 
-# Indice
+# Index
 
 - [How to install](#how-to-install)
 - [License](#license)
