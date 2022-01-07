@@ -11,8 +11,8 @@
 
 # Come installare
 
-you can install this simple library by importing the jar file through your IDE
+potete installare questa semplice libreria importando il file jar attraverso il vostro IDE
 
 # Licenza
 
-This project is protected by the Apache License 2.0.
+Questo progetto è protetto dalla Licenza Apache 2.0.
