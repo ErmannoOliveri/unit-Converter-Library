@@ -1,5 +1,5 @@
 /*
- * Copyright 2022 Ermanno Oliveri
+ * Copyright 2021 Ermanno Oliveri
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -27,7 +27,7 @@ public class Lenght {
      * @param km kilometer
      * @return miles
      */
-    public double fromKmToMiles(double km){
+    static public double fromKmToMiles(double km){
         return km * 0.62137;
     }
 
@@ -36,7 +36,7 @@ public class Lenght {
      * @param miles miles
      * @return km
      */
-    public double fromMilesToKm(double miles){
+    static public double fromMilesToKm(double miles){
         return miles / 0.62137;
     }
 
@@ -45,7 +45,7 @@ public class Lenght {
      * @param inch inch
      * @return centimeters
      */
-    public double fromInchToCm(double inch){
+    static public double fromInchToCm(double inch){
         return inch / 0.39370;
     }
 
@@ -54,7 +54,7 @@ public class Lenght {
      * @param cm centimeter
      * @return inch
      */
-    public double fromCmToInch(double cm){
+    static public double fromCmToInch(double cm){
         return cm * 0.39370;
     }
 
@@ -63,7 +63,7 @@ public class Lenght {
      * @param foot foot
      * @return meter
      */
-    public double fromFootToMeter(double foot){
+    static public double fromFootToMeter(double foot){
         return foot / 3.2808;
     }
 
@@ -72,7 +72,7 @@ public class Lenght {
      * @param meter meter
      * @return foot
      */
-    public double fromMeterToFoot(double meter){
+    static public double fromMeterToFoot(double meter){
         return meter * 3.2808;
     }
 
@@ -81,7 +81,7 @@ public class Lenght {
      * @param meter meter
      * @return yard
      */
-    public double fromMeterToYard(double meter){
+    static public double fromMeterToYard(double meter){
         return meter * 1.0936;
     }
 
@@ -90,7 +90,7 @@ public class Lenght {
      * @param yard yard
      * @return meter
      */
-    public double fromYardToMeter(double yard){
+    static public double fromYardToMeter(double yard){
         return yard / 1.0936;
     }
 }

@@ -1,5 +1,5 @@
 /*
- * Copyright 2022 Ermanno Oliveri
+ * Copyright 2021 Ermanno Oliveri
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -27,7 +27,7 @@ public class Mass {
      * @param ounce ounce
      * @return gram
      */
-    public double fromOunceToGram(double ounce){
+    static public double fromOunceToGram(double ounce){
         return ounce / 0.035274;
     }
 
@@ -36,7 +36,7 @@ public class Mass {
      * @param gram gram
      * @return ounce
      */
-    public double fromGramToOunce(double gram){
+    static public double fromGramToOunce(double gram){
         return gram * 0.035274;
     }
 
@@ -45,7 +45,7 @@ public class Mass {
      * @param kg kg
      * @return pound
      */
-    public double fromKgToPound(double kg){
+    static public double fromKgToPound(double kg){
         return kg * 2.2046;
     }
 
@@ -54,7 +54,7 @@ public class Mass {
      * @param pound pound
      * @return kg
      */
-    public double fromPoundToKg(double pound){
+    static public double fromPoundToKg(double pound){
         return pound / 2.2046;
     }
 }
