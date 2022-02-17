@@ -1,5 +1,5 @@
 /*
- * Copyright 2022 Ermanno Oliveri
+ * Copyright 2021 Ermanno Oliveri
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -27,7 +27,7 @@ public class Surface {
      * @param squareInches square inches
      * @return square centimeters
      */
-    public double fromSquareInchesToSquareCm(double squareInches){
+    static public double fromSquareInchesToSquareCm(double squareInches){
         return squareInches / 0.15500;
     }
 
@@ -36,7 +36,7 @@ public class Surface {
      * @param squareCm square centimeters
      * @return square inches
      */
-    public double fromSquareCmToSquareInches(double squareCm){
+    static public double fromSquareCmToSquareInches(double squareCm){
         return squareCm * 0.15500;
     }
 
@@ -45,7 +45,7 @@ public class Surface {
      * @param squareMeter square meter
      * @return square feet
      */
-    public double fromSquareMeterToSquareFeet(double squareMeter){
+    static public double fromSquareMeterToSquareFeet(double squareMeter){
         return squareMeter * 10.764;
     }
 
@@ -54,7 +54,7 @@ public class Surface {
      * @param squareFeet square feet
      * @return square meters
      */
-    public double fromSquareFeetToSquareMeter(double squareFeet){
+    static public double fromSquareFeetToSquareMeter(double squareFeet){
         return squareFeet / 10.764;
     }
 
@@ -63,7 +63,7 @@ public class Surface {
      * @param squareMiles square miles
      * @return square kilometers
      */
-    public double fromSquareMilesToSquareKm(double squareMiles){
+    static public double fromSquareMilesToSquareKm(double squareMiles){
         return squareMiles / 0.38610;
     }
 
@@ -72,7 +72,7 @@ public class Surface {
      * @param squareKm square kilometers
      * @return square miles
      */
-    public double fromSquareKmToSquareMiles(double squareKm){
+    static public double fromSquareKmToSquareMiles(double squareKm){
         return squareKm * 0.38610;
     }
 
@@ -81,7 +81,7 @@ public class Surface {
      * @param hectares hectares
      * @return acre
      */
-    public double fromHectaresToAcre(double hectares){
+    static public double fromHectaresToAcre(double hectares){
         return hectares / 0.40468726;
     }
 
@@ -90,7 +90,7 @@ public class Surface {
      * @param acre acre
      * @return hectares
      */
-    public double fromAcreToHectares(double acre){
+    static public double fromAcreToHectares(double acre){
         return acre * 0.40468726;
     }
 }
